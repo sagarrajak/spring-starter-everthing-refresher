@@ -21,4 +21,12 @@ public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionH
         message.setMessage(departmentNotFoundException.getMessage());
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(message);
     }
+
+    @ExceptionHandler(UserAlreadyExistException.class)
+    public ResponseEntity<ErrorMessage> userAlreadyExistException(UserAlreadyExistException exception, WebRequest request) {
+        ErrorMessage message = new ErrorMessage();
+        message.setStatus(HttpStatus.BAD_REQUEST);
+        message.setMessage(exception.getMessage());
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(message);
+    }
 }
