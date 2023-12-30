@@ -10,10 +10,8 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 // TODO: write controller test
-@WebMvcTest(DeparmentController.class)
+@WebMvcTest(DepartmentController.class)
 class DeparmentControllerTest {
 
     @Autowired

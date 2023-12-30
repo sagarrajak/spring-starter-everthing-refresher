@@ -2366,10 +2366,10 @@ Unconditional classes:
 2023-12-24 17:27:02,433 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
 2023-12-24 17:27:02,433 INFO [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
 2023-12-24 17:27:02,439 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet POST "/department", parameters={}
-2023-12-24 17:27:02,448 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DeparmentController#saveDepartment(DepartmentEntity)
+2023-12-24 17:27:02,448 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DepartmentController#saveDepartment(DepartmentEntity)
 2023-12-24 17:27:02,449 DEBUG [http-nio-8082-exec-1] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:02,500 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor Read "application/json;charset=UTF-8" to [DepartmentEntity(departmentId=null, departmentName=TECH, departmentAddress=test12, departmentCode=12 (truncated)...]
-2023-12-24 17:27:02,544 INFO [http-nio-8082-exec-1] com.springstarter.springstarterweb.controllers.DeparmentController Inside department controller save
+2023-12-24 17:27:02,544 INFO [http-nio-8082-exec-1] com.springstarter.springstarterweb.controllers.DepartmentController Inside department controller save
 2023-12-24 17:27:02,550 DEBUG [http-nio-8082-exec-1] org.springframework.orm.jpa.JpaTransactionManager Found thread-bound EntityManager [SessionImpl(230342760<open>)] for JPA transaction
 2023-12-24 17:27:02,550 DEBUG [http-nio-8082-exec-1] org.springframework.orm.jpa.JpaTransactionManager Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
 2023-12-24 17:27:02,552 DEBUG [http-nio-8082-exec-1] org.hibernate.engine.transaction.internal.TransactionImpl On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
@@ -2395,10 +2395,10 @@ Unconditional classes:
 2023-12-24 17:27:02,640 DEBUG [http-nio-8082-exec-1] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:02,641 DEBUG [http-nio-8082-exec-1] org.springframework.web.servlet.DispatcherServlet Completed 200 OK
 2023-12-24 17:27:03,237 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet POST "/department", parameters={}
-2023-12-24 17:27:03,237 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DeparmentController#saveDepartment(DepartmentEntity)
+2023-12-24 17:27:03,237 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DepartmentController#saveDepartment(DepartmentEntity)
 2023-12-24 17:27:03,237 DEBUG [http-nio-8082-exec-3] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:03,238 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor Read "application/json;charset=UTF-8" to [DepartmentEntity(departmentId=null, departmentName=TECH, departmentAddress=test12, departmentCode=12 (truncated)...]
-2023-12-24 17:27:03,238 INFO [http-nio-8082-exec-3] com.springstarter.springstarterweb.controllers.DeparmentController Inside department controller save
+2023-12-24 17:27:03,238 INFO [http-nio-8082-exec-3] com.springstarter.springstarterweb.controllers.DepartmentController Inside department controller save
 2023-12-24 17:27:03,238 DEBUG [http-nio-8082-exec-3] org.springframework.orm.jpa.JpaTransactionManager Found thread-bound EntityManager [SessionImpl(1449138718<open>)] for JPA transaction
 2023-12-24 17:27:03,238 DEBUG [http-nio-8082-exec-3] org.springframework.orm.jpa.JpaTransactionManager Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
 2023-12-24 17:27:03,238 DEBUG [http-nio-8082-exec-3] org.hibernate.engine.transaction.internal.TransactionImpl On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
@@ -2424,10 +2424,10 @@ Unconditional classes:
 2023-12-24 17:27:03,241 DEBUG [http-nio-8082-exec-3] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:03,241 DEBUG [http-nio-8082-exec-3] org.springframework.web.servlet.DispatcherServlet Completed 200 OK
 2023-12-24 17:27:04,752 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet POST "/department", parameters={}
-2023-12-24 17:27:04,752 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DeparmentController#saveDepartment(DepartmentEntity)
+2023-12-24 17:27:04,752 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DepartmentController#saveDepartment(DepartmentEntity)
 2023-12-24 17:27:04,752 DEBUG [http-nio-8082-exec-4] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:04,753 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor Read "application/json;charset=UTF-8" to [DepartmentEntity(departmentId=null, departmentName=TECH, departmentAddress=test12, departmentCode=12 (truncated)...]
-2023-12-24 17:27:04,753 INFO [http-nio-8082-exec-4] com.springstarter.springstarterweb.controllers.DeparmentController Inside department controller save
+2023-12-24 17:27:04,753 INFO [http-nio-8082-exec-4] com.springstarter.springstarterweb.controllers.DepartmentController Inside department controller save
 2023-12-24 17:27:04,753 DEBUG [http-nio-8082-exec-4] org.springframework.orm.jpa.JpaTransactionManager Found thread-bound EntityManager [SessionImpl(490404926<open>)] for JPA transaction
 2023-12-24 17:27:04,753 DEBUG [http-nio-8082-exec-4] org.springframework.orm.jpa.JpaTransactionManager Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
 2023-12-24 17:27:04,753 DEBUG [http-nio-8082-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
@@ -2451,10 +2451,10 @@ Unconditional classes:
 2023-12-24 17:27:04,757 DEBUG [http-nio-8082-exec-4] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:04,758 DEBUG [http-nio-8082-exec-4] org.springframework.web.servlet.DispatcherServlet Completed 200 OK
 2023-12-24 17:27:05,470 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.DispatcherServlet POST "/department", parameters={}
-2023-12-24 17:27:05,470 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DeparmentController#saveDepartment(DepartmentEntity)
+2023-12-24 17:27:05,470 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Mapped to com.springstarter.springstarterweb.controllers.DepartmentController#saveDepartment(DepartmentEntity)
 2023-12-24 17:27:05,470 DEBUG [http-nio-8082-exec-5] org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2023-12-24 17:27:05,471 DEBUG [http-nio-8082-exec-5] org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor Read "application/json;charset=UTF-8" to [DepartmentEntity(departmentId=null, departmentName=TECH, departmentAddress=test12, departmentCode=12 (truncated)...]
-2023-12-24 17:27:05,471 INFO [http-nio-8082-exec-5] com.springstarter.springstarterweb.controllers.DeparmentController Inside department controller save
+2023-12-24 17:27:05,471 INFO [http-nio-8082-exec-5] com.springstarter.springstarterweb.controllers.DepartmentController Inside department controller save
 2023-12-24 17:27:05,471 DEBUG [http-nio-8082-exec-5] org.springframework.orm.jpa.JpaTransactionManager Found thread-bound EntityManager [SessionImpl(558116055<open>)] for JPA transaction
 2023-12-24 17:27:05,471 DEBUG [http-nio-8082-exec-5] org.springframework.orm.jpa.JpaTransactionManager Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
 2023-12-24 17:27:05,471 DEBUG [http-nio-8082-exec-5] org.hibernate.engine.transaction.internal.TransactionImpl On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false

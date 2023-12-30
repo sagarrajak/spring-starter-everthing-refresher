@@ -12,11 +12,11 @@ import com.springstarter.springstarterweb.service.DepartmentService;
 import java.util.List;
 
 @RestController
-public class DeparmentController {
+public class DepartmentController {
 	private final DepartmentService departmentService;
-	private final Logger LOGGER = LoggerFactory.getLogger(DeparmentController.class);
+	private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
 	
-	public DeparmentController(DepartmentService departmentService) {
+	public DepartmentController(DepartmentService departmentService) {
 		super();
 		this.departmentService =
 				departmentService;

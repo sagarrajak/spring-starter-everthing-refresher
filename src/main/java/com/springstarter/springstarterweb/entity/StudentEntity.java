@@ -1,10 +1,11 @@
 package com.springstarter.springstarterweb.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Table(name = "student")
 @Entity(name = "student")
@@ -12,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString(exclude = {"courses"})
 public class StudentEntity {
     @Id
     @SequenceGenerator(
@@ -34,4 +36,8 @@ public class StudentEntity {
 
     @Embedded
     private Guardian guardian;
+
+
+    @ManyToMany(mappedBy = "students", fetch = FetchType.LAZY)
+    List<CourseEntity> courses;
 }
